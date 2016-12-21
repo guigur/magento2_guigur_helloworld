@@ -1,5 +1,5 @@
     {
-        "name": "ga_helloworld/magento2-blog",
+        "name": "Guigur/Helloworld",
         "description": "A hello world module.",
         "type": "magento2-module",
         "version": "1.0.0",
@@ -15,7 +15,7 @@
             "map": [
                 [
                     "*",
-                    "GA_HelloWorld/hello"
+                    "Guigur/Helloworld"
                 ]
             ]
         }
