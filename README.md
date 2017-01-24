@@ -9,11 +9,10 @@ Add the VCS in your composer.json
         }],
 
 Then execute:   
-              > composer require Guigur/Helloworld
-              > composer update
-         
-              > php -f bin/magento module:enable Guigur_Helloworld
-(optional)    > php -f bin/magento setup:upgrade
+1. composer require Guigur/Helloworld
+2. composer update         
+3. php -f bin/magento module:enable Guigur_Helloworld
+4. php -f bin/magento setup:upgrade
 
 ## Usage
 go to http://urlofmystore/helloworld
